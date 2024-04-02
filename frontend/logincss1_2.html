@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만들어둔 로그인 페이지를 가운데로 가져오려면?</title>
+    <style>
+        .mytitle {
+            width: 300px;
+            height: 200px;
+
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            /* padding = 안쪽여백 */
+            border-radius: 8px;
+
+            background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
+            background-position: center;
+            background-size: cover;
+            /* 얘네 3줄은 항상 같이다님 */
+        }
+        .wrap{
+            width: 300px;
+            margin: 50px auto 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 비밀번호를 입력해주세요</h5>
+        </div>
+        <h3>ID: <input type="text"></h3>
+        <h3>PW: <input type="text"></h3>
+        <button>로그인 하기</button>
+
+
+    </div>
+
+</body>
+
+</html>
